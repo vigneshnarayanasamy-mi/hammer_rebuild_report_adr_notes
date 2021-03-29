@@ -1,0 +1,228 @@
+{
+  "hammerData": [
+    {
+      "id": "hammer_id",
+      "name": "RH 460",
+      "description": "RH 460 5\"",
+      "partNumber": "HJAKL 12345",
+      "external": [
+        {
+          "id": "spare_part_id",
+          "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+          "itemName": "HAMMER ASSY",
+          "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+          "image": "hammer_id_spare_part_id_name",
+          "shouldMeasure": true,
+          "measurePoints": [
+            "measure_point_id_for_this_part_1",
+            "measure_point_id_for_this_part_2",
+            "measure_point_id_for_this_part_n"
+          ],
+          "measurePointsForCalculation": [
+            "measure_point_id_1",
+            "measure_point_id_n"
+          ]
+        }
+      ],
+      "internal": [
+        {
+          "id": "spare_part_id",
+          "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+          "itemName": "HAMMER ASSY",
+          "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+          "image": "hammer_id_spare_part_id_name",
+          "shouldMeasure": true,
+          "measurePoints": [
+            "measure_point_id_for_this_part_1",
+            "measure_point_id_for_this_part_2",
+            "measure_point_id_for_this_part_n"
+          ],
+          "measurePointsForCalculation": [
+            "measure_point_id_1",
+            "measure_point_id_2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hammer_id",
+      "name": "RH 510",
+      "description": "RH 510 5\"",
+      "partNumber": "HJAKL 12345",
+      "external": [
+        {
+          "id": "spare_part_id",
+          "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+          "itemName": "HAMMER ASSY",
+          "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+          "image": "hammer_id_spare_part_id_name",
+          "shouldMeasure": true,
+          "measurePoints": [
+            "measure_point_id_for_this_part_1",
+            "measure_point_id_for_this_part_2",
+            "measure_point_id_for_this_part_n"
+          ],
+          "measurePointsForCalculation": [
+            "measure_point_id_1",
+            "measure_point_id_2"
+          ]
+        }
+      ],
+      "internal": [
+        {
+          "id": "spare_part_id",
+          "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+          "itemName": "HAMMER ASSY",
+          "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+          "image": "hammer_id_spare_part_id_name",
+          "shouldMeasure": true,
+          "measurePoints": [
+            "measure_point_id_for_this_part_1",
+            "measure_point_id_for_this_part_2",
+            "measure_point_id_for_this_part_n"
+          ],
+          "measurePointsForCalculation": [
+            "measure_point_id_1",
+            "measure_point_id_2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hammer_id",
+      "name": "RH 560",
+      "description": "RH 560 5\"",
+      "partNumber": "HJAKL 12345",
+      "external": [
+        {
+          "id": "spare_part_id",
+          "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+          "itemName": "HAMMER ASSY",
+          "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+          "image": "hammer_id_spare_part_id_name",
+          "shouldMeasure": true,
+          "measurePoints": [
+            "measure_point_id_for_this_part_1",
+            "measure_point_id_for_this_part_2",
+            "measure_point_id_for_this_part_n"
+          ],
+          "measurePointsForCalculation": [
+            "measure_point_id_1",
+            "measure_point_id_2"
+          ]
+        }
+      ],
+      "internal": [
+        {
+          "id": "spare_part_id",
+          "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+          "itemName": "HAMMER ASSY",
+          "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+          "image": "hammer_id_spare_part_id_name",
+          "shouldMeasure": true,
+          "measurePoints": [
+            "measure_point_id_for_this_part_1",
+            "measure_point_id_for_this_part_2",
+            "measure_point_id_for_this_part_n"
+          ],
+          "measurePointsForCalculation": [
+            "measure_point_id_1",
+            "measure_point_id_2"
+          ]
+        }
+      ]
+    }
+  ],
+  "measurePointsInfo": [
+    {
+      "id": 0,
+      "name": "DP",
+      "description": "Distributor Probe",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 1,
+      "name": "DB",
+      "description": "Distributor Bore",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 2,
+      "name": "UB",
+      "description": "Upper Bearing",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 3,
+      "name": "LB",
+      "description": "Lower Bearing",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 3,
+      "name": "PCU",
+      "description": "Piston Case Upper",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 4,
+      "name": "PCB",
+      "description": "Piston Case Bore",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 5,
+      "name": "PCL",
+      "description": "Piston Case Lower",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 6,
+      "name": "TS",
+      "description": "Top Sub",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 7,
+      "name": "ICB",
+      "description": "Inner Cylinder Bore",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 8,
+      "name": "GS",
+      "description": "Guide Sleeve Bore",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 9,
+      "name": "DS",
+      "description": "Driver Sub",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 10,
+      "name": "DSL",
+      "description": "Driver Sub Length",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 11,
+      "name": "DP",
+      "description": "Distributor Probe (Air Feed Tube)",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 12,
+      "name": "GSU",
+      "description": "Guide Sleeve Upper Bore",
+      "sparePartId": "<spare_part_id>"
+    },
+    {
+      "id": 13,
+      "name": "GSL",
+      "description": "Guide Sleeve Lower Bore",
+      "sparePartId": "<spare_part_id>"
+    }
+  ]
+}

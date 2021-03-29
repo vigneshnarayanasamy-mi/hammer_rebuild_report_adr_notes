@@ -1,0 +1,21 @@
+{
+    "id": "spare_part_id",
+    "itemNumber": "BG00394481/F;1-HAMMER ASSY",
+    "itemName": "HAMMER ASSY",
+    "itemDescription": "RH460g 8\" HAMMER 5 1/4 BECO PIN (boddington spec.)",
+    "image": "hammer_id_spare_part_id_name",
+    "shouldMeasure": true,
+    "measurepoints": [
+        {
+          "primaryMeasurePoint": "ID_of_measure_point_from_this_part",
+          "secondaryMeasurePoint": "ID_of_measure_point_from_another_part",
+          "thresholdValue": 0.5,
+          "greater": false
+        },
+        {
+          "primaryMeasurePoint": "ID_of_measure_point_from_this_part",
+          "thresholdValue": 0.5,
+          "greater": false
+        }
+      ]
+}

@@ -1,0 +1,98 @@
+Questions:
+	- Will the iOS app UI show parts that need measurement only? [In both external and internal]. if YES - Remove `shouldMeasure` flag.
+
+Inputs for data modelling:
+	-	All images will be bundled in the app.
+	-	This app is serving only three hammer families.
+	-	For 2 hammer families the spare parts are same.
+	-	For 1 hammer family the spare parts are different.
+	- 
+
+
+---
+	-	RH460
+
+				-	Distributor 
+						-	Distributor Probe -> DP
+
+				-	Piston
+						-	Distributor Bore -> DB
+						-	Upper Bearing -> UB
+						-	Lower Bearing -> LB
+
+				-	Piston Case
+						-	Piston Case Upper -> PCU
+						-	Piston Case Bore -> PCB
+						-	Piston Case Lower -> PCL
+
+				-	Top Sub
+						-	Top Sub, TS
+
+				-	Inner Cylinder
+						-	Inner Cylinder Bore -> ICB
+
+				-	Guide Sleeve Bore
+						-	Guide Sleeve Bore -> GS
+
+				-	Driver Sub
+						-	Driver Sub -> DS
+						-	Driver Sub Length -> DSL
+
+	-	RH510
+
+				-	Air Feed Tube
+					-	Distributor Probe -> DP
+				
+				-	Piston
+						-	Distributor Bore -> DB
+						-	Upper Bearing -> UB
+						-	Lower Bearing -> LB
+
+				-	Piston Case
+						-	Piston Case Upper -> PCU
+						-	Piston Case Bore -> PCB
+						-	Piston Case Lower -> PCL
+
+				-	Top Sub
+						-	Top Sub, TS
+
+				-	Guide Sleeve Bore
+						-	Guide sleeve bore -> GS
+
+				-	Driver Sub
+						-	Driver Sub -> DS
+						-	Driver Sub Length -> DSL
+
+
+	-	RH560
+
+				-	Distributor 
+						-	Distributor Probe -> DP
+
+				-	Piston
+						-	Distributor Bore -> DB
+						-	Upper Bearing -> UB
+						-	Lower Bearing -> LB
+						-	Piston Nose, PN
+
+				-	Piston Case
+						-	Piston Case Upper -> PCU
+						-	Piston Case Bore -> PCB
+						-	Piston Case Lower -> PCL
+
+				-	Top Sub
+						-	Top Sub, TS
+
+				-	Inner Cylinder
+						-	Inner Cylinder Bore -> ICB
+
+				-	Driver Sub
+						-	Driver Sub -> DS
+						-	Driver Sub Length -> DSL
+
+				-	Guide Sleeve Bore
+						-	Guide Sleeve Upper Bore -> GSU
+						-	Guide Sleeve Lower Bore -> GSL
+
+
+
