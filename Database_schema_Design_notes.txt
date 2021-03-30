@@ -1,0 +1,38 @@
+Database schema Design:
+
+Hammer Data
+———————————
+
+hrreportmeasurepoint
+	id
+	name
+	description
+	rebuildpartId - [links to spare part id]
+
+hrrebuildpart
+	id [relates to other tabls with this id]
+	hammerId
+	itemNumber
+	itemName
+	itemDescription
+	imageName - [non-persisting-value. This should be generated online.]
+	measure: bool
+	partplacement - [enum value: INT/EXT]
+
+hrrebuildpartmeasurepoints
+	id
+	rebuildpartId	
+	primaryMeasurePoint - [Id of the measure point]
+	secondaryMeasurePoint - [Id of the measure point] - [could be null]
+	thresholdValue
+	greater: bool
+
+hrreporthammer
+	id [relates to other tabls with this id]
+	name
+	description
+	partNumber
+
+
+Hammer Report:
+——————————————
