@@ -36,3 +36,67 @@ hrreporthammer
 
 Hammer Report:
 ——————————————
+
+hrrhammerrebuildreport
+	id - [reportid]
+	date - ?
+	dateuploaded
+	userid - [useruploaded]
+	token - ?
+	customer
+	country
+	site
+	customercode
+	customerdeliverysequence
+	dateOn
+	dateOff
+	comment
+	additionalcomment
+	replacedby - ?
+	replacedbytoken - ?
+	deleted - [flagged as delete]
+
+
+hrrimageswithcomments
+	id
+	hrrid - [links from report table - report id]
+	imageId - [links from images table in rocktools schema]
+	coordinateX
+	coordinateY
+	comments
+
+hrrpartmeasurements
+	id
+	hrrid - [links from report table - report id]
+	measurePointId
+	measuredValue
+	toleranceLevel
+	percentageOfLifeRemaining
+	unit
+
+hrrproductinfo
+	id
+	hrrid - [links from report table - report id]
+	key
+	value
+	unit
+
+	[
+		for fields:
+			actualservicelife
+			targetservicelife
+			expectedservicelife
+			actualcpx
+			targetcpx
+			expectedcpx
+			hammerid
+			partnumber
+			serialnumber
+			totalparts
+			inspectedparts
+			purchaseCostOfHammer
+			rigModel
+			rigId
+			rigManufacturer
+			recommendation
+	]

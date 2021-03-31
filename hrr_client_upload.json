@@ -1,8 +1,7 @@
 {
   "date": "2021-03-29T17:20:00.731Z",
   "customer": "Customer_Name_here",
-  "hammerId": "hammer id", // This should be hammer ID NOT description.
-  // "partNumber": "hammer part number here", // Is this required?
+  "hammerId": "hammer id",
   "serialNumber": "hammer serial number",
   "partsInspection": {
     "totalNumberOfParts": 14,
@@ -13,9 +12,13 @@
       "id": "spare_part_id",
       "images": [
         {
-          "token": "image_upload_token", // image hotspot coordinates
-          "coordinateX": 0.9987,
-          "coordinateY": 0.9987,
+          "token": "image_upload_token",
+          "hotSpots": [
+            {
+              "coordinateX": 0.9987,
+              "coordinateY": 0.9987
+            }
+          ],
           "comments": "comments..."
         },
         {
@@ -28,7 +31,7 @@
       "measurements": [
         {
           "measurePointId": "id_of_measure_point",
-          "measuredValue": 40,  // include - toleranceLevel, lifeRemaining
+          "measuredValue": 40,
           "toleranceLevel": 0.35,
           "unit": "mm"
         },
@@ -39,12 +42,8 @@
           "unit": "m/h"
         }
       ],
-      // NOT FOR THE WHOLE SPARE PART
-      // "toleranceLevel": "calculated_tolerance_level",
-      // "percentageOfLifeRemaining": "calculated_%_of_life",
       "replacementNeeded": true,
-      "price": "545,00",  // Client doesn't send $ symbol. BE hardcodes it.
-      // "summary": "summary of inspaction."  // is this required?
+      "price": "545,00"
     }
   ],
   "purchaseCostOfHammer": "hammer purchase cost",
@@ -57,8 +56,7 @@
   "cpx": {
     "actual": 80,
     "target": 34,
-    "expected": 545,
-    // "unit": "m"   // always in dollar - unit is not needed here.
+    "expected": 545
   },
   "dateOn": "date_string",
   "dateOff": "date_String",
