@@ -29,6 +29,7 @@ hrrebuildpartmeasurepoints
 
 hrreporthammer
 	id [relates to other tabls with this id]
+	hammerId [relates to other tabls with this id]
 	name
 	description
 	partNumber
